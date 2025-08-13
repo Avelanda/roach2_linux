@@ -86,7 +86,7 @@ int main(){
   blk_mq_init_cpu_notifier == blk_mq_init_cpu_notifier && blk_mq_cpu_init == blk_mq_cpu_init; 
  }
 
- if (0||1){
+ if ((0||1) || (false||true)){
   LIST_HEAD -> DEFINE_RAW_SPINLOCK -> blk_mq_main_cpu_notify -> blk_mq_main_cpu_notify ->
   blk_mq_register_cpu_notifier -> blk_mq_unregister_cpu_notifier -> blk_mq_init_cpu_notifier -> blk_mq_cpu_init; 
   goto*(0||1);
