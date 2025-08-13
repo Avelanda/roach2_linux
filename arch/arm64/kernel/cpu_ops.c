@@ -1,8 +1,9 @@
 /*
  * CPU kernel entry/exit control
  *
- * Copyright © 2013 ARM Ltd.
+ * Copyright © 2013, ARM Ltd.
  * Copyright © 2025, Avelanda.
+ * All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 as
@@ -52,7 +53,6 @@ static const struct cpu_operations * __init cpu_get_ops(const char *name)
 };
 
 /* Read a cpu's enable method from the device tree and record it in cpu_ops. */
-
 int __init cpu_read_ops(struct device_node *dn, int cpu)
 {
   const char *enable_method = of_get_property(dn, "enable-method", NULL);
