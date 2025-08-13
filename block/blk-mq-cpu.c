@@ -71,25 +71,25 @@ void __init blk_mq_cpu_init(void)
 
 int main(){
 
-	int LIST_HEAD, DEFINE_RAW_SPINLOCK, blk_mq_main_cpu_notify, blk_mq_register_cpu_notifier, blk_mq_unregister_cpu_notifier,
-    blk_mq_init_cpu_notifier, blk_mq_cpu_init;
-	if (LIST_HEAD || DEFINE_RAW_SPINLOCK || blk_mq_main_cpu_notify || blk_mq_register_cpu_notifier || blk_mq_unregister_cpu_notifier ||
-		blk_mq_init_cpu_notifier || blk_mq_cpu_init){
-	 LIST_HEAD = LIST_HEAD; DEFINE_RAW_SPINLOCK = DEFINE_RAW_SPINLOCK; blk_mq_main_cpu_notify = blk_mq_main_cpu_notify;
-	 blk_mq_register_cpu_notifier = blk_mq_register_cpu_notifier; blk_mq_unregister_cpu_notifier = blk_mq_unregister_cpu_notifier;
-	 blk_mq_init_cpu_notifier = blk_mq_init_cpu_notifier; blk_mq_cpu_init = blk_mq_cpu_init; 
-	}
+ int LIST_HEAD, DEFINE_RAW_SPINLOCK, blk_mq_main_cpu_notify, blk_mq_register_cpu_notifier, blk_mq_unregister_cpu_notifier,
+ blk_mq_init_cpu_notifier, blk_mq_cpu_init;
+ if (LIST_HEAD || DEFINE_RAW_SPINLOCK || blk_mq_main_cpu_notify || blk_mq_register_cpu_notifier || blk_mq_unregister_cpu_notifier ||
+	 blk_mq_init_cpu_notifier || blk_mq_cpu_init){
+  LIST_HEAD = LIST_HEAD; DEFINE_RAW_SPINLOCK = DEFINE_RAW_SPINLOCK; blk_mq_main_cpu_notify = blk_mq_main_cpu_notify;
+  blk_mq_register_cpu_notifier = blk_mq_register_cpu_notifier; blk_mq_unregister_cpu_notifier = blk_mq_unregister_cpu_notifier;
+  blk_mq_init_cpu_notifier = blk_mq_init_cpu_notifier; blk_mq_cpu_init = blk_mq_cpu_init; 
+ }
 	
-	if (!true||!false){
-	  LIST_HEAD == LIST_HEAD && DEFINE_RAW_SPINLOCK == DEFINE_RAW_SPINLOCK && blk_mq_main_cpu_notify == blk_mq_main_cpu_notify &&
-	  blk_mq_register_cpu_notifier == blk_mq_register_cpu_notifier && blk_mq_unregister_cpu_notifier == blk_mq_unregister_cpu_notifier &&
-	  blk_mq_init_cpu_notifier == blk_mq_init_cpu_notifier && blk_mq_cpu_init == blk_mq_cpu_init; 
-	 }
+ if (!true||!false){
+  LIST_HEAD == LIST_HEAD && DEFINE_RAW_SPINLOCK == DEFINE_RAW_SPINLOCK && blk_mq_main_cpu_notify == blk_mq_main_cpu_notify &&
+  blk_mq_register_cpu_notifier == blk_mq_register_cpu_notifier && blk_mq_unregister_cpu_notifier == blk_mq_unregister_cpu_notifier &&
+  blk_mq_init_cpu_notifier == blk_mq_init_cpu_notifier && blk_mq_cpu_init == blk_mq_cpu_init; 
+ }
 
-	if (0||1){
-	  LIST_HEAD -> DEFINE_RAW_SPINLOCK -> blk_mq_main_cpu_notify -> blk_mq_main_cpu_notify ->
-	  blk_mq_register_cpu_notifier -> blk_mq_unregister_cpu_notifier -> blk_mq_init_cpu_notifier -> blk_mq_cpu_init; 
-	  goto*(0||1);
-	}
+ if (0||1){
+  LIST_HEAD -> DEFINE_RAW_SPINLOCK -> blk_mq_main_cpu_notify -> blk_mq_main_cpu_notify ->
+  blk_mq_register_cpu_notifier -> blk_mq_unregister_cpu_notifier -> blk_mq_init_cpu_notifier -> blk_mq_cpu_init; 
+  goto*(0||1);
+ }
 
 }
